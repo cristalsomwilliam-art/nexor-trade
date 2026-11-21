@@ -4,11 +4,11 @@
 
 ---
 
-## 📥 Download (Windows 64-bit — v1.2.0)
+## 📥 Download (Windows 64-bit — v1.3.0)
 
 Acesse a página de [**Releases**](https://github.com/cristalsomwilliam-art/nexor-trade/releases/latest) e baixe uma das opções abaixo:
 
-- **`NexorTrade-v1.2.0-win64.zip`** *(Recomendado — Versão Portátil)*: extraia a pasta `NexorTrade` e abra `NexorTrade.exe` para inicialização instantânea.
+- **`NexorTrade-v1.3.0-win64.zip`** *(Recomendado — Versão Portátil)*: extraia a pasta `NexorTrade` e abra `NexorTrade.exe` para inicialização instantânea.
 - **`NexorTrade.exe`** *(Executável Único)*: arquivo único autônomo para abrir com dois cliques.
 
 > **Observação sobre o Windows SmartScreen:** como o executável é distribuído de forma independente sem certificado pago da Microsoft, o Windows pode exibir um aviso na primeira execução. Clique em **Mais informações** → **Executar assim mesmo**.
@@ -17,7 +17,8 @@ Acesse a página de [**Releases**](https://github.com/cristalsomwilliam-art/nexo
 
 ## ✨ Recursos Principais
 
-- **Ficha Completa da Moeda no Gráfico (v1.2.0):** faixa rápida no topo do gráfico + modal organizado com Mercado 24h, Funding Rate, Open Interest, Long/Short Ratio, Market Cap, FDV, Supply em Circulação, ATH, TVL, EMAs, RSI, ATR, Suporte/Resistência, Força vs BTC, Pontos Fortes e Alertas.
+- **Filtros Anti-Falsos Sinais (v1.3.0):** validação de sustentação do gatilho Stormer 123 (bloqueio de pavios de martelo/estrela cadente), trava de conflito macro bidirecional com Bitcoin, filtro rigoroso de exaustão por RSI e banner exclusivo para sinais aprovados (`FIQUE DE FORA` nunca entra no banner).
+- **Ficha Completa da Moeda no Gráfico:** carregamento paralelo (~1,2s) com Mercado 24h, Funding Rate, Open Interest, Long/Short Ratio, Market Cap, FDV, Supply em Circulação, ATH, TVL, EMAs, RSI, ATR, Suporte/Resistência, Força vs BTC, Pontos Fortes e Alertas.
 - **Multi-Corretoras Oficiais:** suporte às APIs oficiais da Binance, Bitget Futures, Bybit e BingX (ambientes Simulado e Real).
 - **Segurança em Primeiro Lugar:** inicia desconectado em modo **Fictício**, criptografa credenciais localmente com `Fernet` + `PBKDF2`, exige trava de instância única e possui **STOP GERAL** de emergência.
 - **Gráfico Profissional & Raio-X Preciso:** VWAP Ancorada (±1σ, ±2σ, ±3σ), EMAs, RSI e salto automático de sinais Stormer / Divergência para o gráfico.
